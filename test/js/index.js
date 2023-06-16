@@ -149,7 +149,7 @@ window.onload = function () {
         const callback = 'handleResponse';
 
         // Construct the URL with the query parameters
-        const url = `http://zipchannel.top:31279/submit?callback=${callback}&challenge=${challenge}&validate=${validate}&seccode=${seccode}`;
+        const url = `https://zipchannel.top:31280/submit?callback=${callback}&challenge=${challenge}&validate=${validate}&seccode=${seccode}`;
 
         // Define the callback function
         window.handleResponse = (response) => {
