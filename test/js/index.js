@@ -65,7 +65,7 @@ window.onload = function () {
 
     testBtn.onclick = () => {
         const randomNum = generateRandomNumber();
-        const baseUrl = "https://www.geetest.com/demo/gt/register-icon";
+        const baseUrl = "https://www.com/demo/gt/register-icon";
         const url = `${baseUrl}?t=${randomNum}`;
         fetch(url)
             .then(response => response.json())
@@ -74,7 +74,7 @@ window.onload = function () {
                 const gt = data.gt;
                 console.log("challenge:", challenge);
                 console.log("gt:", gt);
-                window.location.href = `geetest.html?gt=${gt}&challenge=${challenge}`;
+                window.location.href = `test.html?gt=${gt}&challenge=${challenge}`;
             })
             .catch(error => {
                 console.error("获取gt和challenge失败", error);
