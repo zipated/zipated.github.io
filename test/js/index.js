@@ -65,7 +65,7 @@ window.onload = function () {
 
     testBtn.onclick = () => {
         const randomNum = generateRandomNumber();
-        const baseUrl = "https://www.com/demo/gt/register-icon";
+        const baseUrl = "https://www.geetest.com/demo/gt/register-icon";
         const url = `${baseUrl}?t=${randomNum}`;
         fetch(url)
             .then(response => response.json())
