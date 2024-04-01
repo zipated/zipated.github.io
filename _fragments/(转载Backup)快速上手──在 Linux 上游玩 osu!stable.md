@@ -12,7 +12,10 @@ keywords: keyword1, keyword2
 
 版权声明: 此文章版权归 B1ackSand 所有，如有转载，请注明来自原作者
 
-------------------
+------
+------
+
+<details><summary>内容</summary>
 
 适合新人、了解一些 Wine 以及 osu!stable 人士的指北，内容简单明了，操作基于 Arch：[即本文](https://blacksand.top/2021/12/03/%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B%E2%94%80%E2%94%80%E5%A6%82%E4%BD%95%E5%9C%A8Linux%E4%B8%8A%E6%B8%B8%E7%8E%A9osu!stable/)
 
@@ -305,6 +308,11 @@ https://opentabletdriver.net/Wiki/FAQ/Linux
 <li><p><a target="_blank" rel="noopener" href="https://discord.gg/ThePooN">ThePooN’s discord</a></p>
 </li>
 </ul>
+
+</details>
+
+------
+------
 
 文章作者: B1ackSand
 
